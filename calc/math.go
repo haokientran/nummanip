@@ -15,6 +15,6 @@ func Add(numbers ...int) (error, int) {
 			sum += num
 		}
 
-		return sum
+		return nil, sum
 	}
 }
